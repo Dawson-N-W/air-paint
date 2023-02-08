@@ -11,7 +11,7 @@ def getRange(hsv):
     maxH = maxHValue
     maxS = maxValue
     maxV = maxValue
-
+    
     cv2.namedWindow("Values", 0)
     cv2.resizeWindow("Values", 600, 150)
 
